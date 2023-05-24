@@ -711,8 +711,9 @@ class Plugin(object):
             suffix = suffix,
             blind = blind
         )
-        return result.replace('\\n', '\n')
-
+        if result:
+            result.replace('\\n', '\n')
+        return result
 
     def evaluate_blind(self, code, **kwargs):
 
