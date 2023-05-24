@@ -11,6 +11,16 @@ The sandbox break-out techniques came from James Kett's [Server-Side Template In
 
 It can exploit several code context and blind injection scenarios. It also supports _eval()_-like code injections in Python, Ruby, PHP, Java and generic unsandboxed template engines.
 
+**Installation**
+------------------------------
+
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python tplmap.py -h
+```
+
 Server-Side Template Injection
 ------------------------------
 
