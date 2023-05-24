@@ -15,10 +15,12 @@ It can exploit several code context and blind injection scenarios. It also suppo
 ------------------------------
 
 ```bash
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python tplmap.py -h
+$ git clone https://github.com/qNwNp/tplmap
+$ cd tplmap
+$ python -m venv venv
+$ source venv/bin/activate
+(venv)$ pip install -r requirements.txt
+(venv)$ python tplmap.py -h
 ```
 
 Server-Side Template Injection
